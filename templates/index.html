@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist search</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src=
+  "https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js">
+        </script>
+      <script src=
+  "https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js">
+        </script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+  <header>
+    <h3>Artist Search</h3>
+  </header>
+  <main>
+    <!-- Search Bar -->
+    <form id="search-form" class="search-form">
+      <div class="search-bar">
+        <img class="icon magnify" id="search-button" src="{{ url_for('static', filename='images/search_icon.png') }}" alt="search icon">
+        <input type="text" id="search-input" name="q" class="search-input" placeholder="Please enter an artist name." required>
+        <img class="icon cross" id="clear-input" src="{{ url_for('static', filename='images/clear_icon.png') }}" alt="clear icon">
+      </div>
+    </form>
+    
+    <div id="loading" class="loading1" style="display: none;">
+      <img src="{{ url_for('static', filename='images/loading.gif') }}" alt="Loading...">
+    </div>
+
+    <!-- Results Section -->
+    <div class="result-list">
+     
+    </div>
+    <!-- Results not found -->
+    <div id="no-results" class="no-results" style="display: none;">
+      <p>No results found.</p>
+    </div>
+    <div id="loading" class="loading2" style="display: none;">
+      <img src="{{ url_for('static', filename='images/loading.gif') }}" alt="Loading...">
+    </div>
+    <div class="artist-container">
+    </div>
+  </main>
+    <!-- Footer Section -->
+    <footer>
+      <a href="https://www.artsy.net">
+        <div class="footer-content">
+          <p>Powered by </p>
+          <img src="{{ url_for('static', filename='images/artsy_logo.svg') }}" alt="Artsy Logo">
+          <p>Artsy</p>
+        </div>
+      </a>
+  </footer>
+
+</body>
+</html>
