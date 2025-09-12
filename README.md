@@ -178,46 +178,6 @@ For production deployment, consider setting:
 
 ## 🧪 Testing
 
-### Automated Testing
-
-This project includes comprehensive automated testing with **95%+ code coverage**:
-
-#### **Test Suite Features:**
-- ✅ **Unit Tests**: 20+ test cases covering all API endpoints
-- ✅ **Integration Tests**: End-to-end application flow testing
-- ✅ **Mock Testing**: External API dependency isolation
-- ✅ **Error Handling**: Complete error scenario coverage
-- ✅ **Security Testing**: Bandit security scanning
-- ✅ **Code Quality**: Flake8, Black, and isort linting
-
-#### **Quick Test Commands:**
-```bash
-# Run all tests
-python run_tests.py all
-
-# Run with coverage report
-python run_tests.py coverage
-
-# Run unit tests only
-python run_tests.py unit
-
-# Run integration tests only
-python run_tests.py integration
-```
-
-#### **Test Coverage:**
-- **API Routes**: 100% coverage
-- **Error Handling**: 100% coverage
-- **Core Functions**: 95%+ coverage
-- **Integration Points**: 90%+ coverage
-
-#### **CI/CD Pipeline:**
-- 🚀 **GitHub Actions**: Automated testing on push/PR
-- 🐍 **Multi-Python**: Tests on Python 3.9, 3.10, 3.11
-- 📊 **Coverage Reports**: Automated coverage tracking
-- 🔒 **Security Scans**: Safety and bandit security checks
-- 🎨 **Code Quality**: Automated linting and formatting
-
 ### Manual Testing
 
 1. **Search Functionality**:
@@ -240,15 +200,7 @@ app/
 ├── main.py              # Main Flask application
 ├── requirements.txt     # Python dependencies
 ├── app.yaml            # Google App Engine configuration
-├── pytest.ini         # Pytest configuration
-├── run_tests.py        # Test runner script
 ├── README.md           # Project documentation
-├── .github/            # GitHub Actions workflows
-│   └── workflows/
-│       └── ci.yml      # Continuous integration pipeline
-├── tests/              # Test suite
-│   ├── README.md       # Testing documentation
-│   └── test_main.py    # Main test suite (20+ test cases)
 ├── static/             # Static assets
 │   ├── style.css       # Application styles
 │   ├── script.js       # Frontend JavaScript
